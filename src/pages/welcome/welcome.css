@@ -1,8 +1,8 @@
 .welcome {
   background-color: var(--bg-color);
   background-image: url("../../assets/pattern.svg");
-  background-position: 10% 20%;
-  background-size: 145%;
+  background-position: 25% 20%;
+  background-size: 160%;
   background-repeat: no-repeat;
   height: 100vh;
   width: 100vw;
@@ -13,11 +13,28 @@
 
 .splash-content {
   margin: 0 40px 0 45px;
+  font-size: 14pt;
   font-family: var(--secondary-font);
-  font-weight: 200;
-  color: white;
+  font-weight: 400;
+  color: var(--text-color);
+  line-height: 30pt;
 }
 
 .splash-logo-img {
-  width: 32px;
+  width: 45px;
+  padding: 0;
+}
+
+.arrow {
+  font-size: 20px;
+  padding-left: 10px;
+}
+
+.start {
+  font-family: var(--primary-font);
+  font-weight: 500;
+}
+
+.splash-content h1 {
+  margin: 0;
 }
