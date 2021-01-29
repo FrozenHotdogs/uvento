@@ -1,0 +1,31 @@
+.calendarBox {
+  display: grid;
+  grid-auto-flow: column;
+  background-color: var(--bg-color);
+  justify-content: center;
+  align-items: center;
+}
+
+.dayCard {
+  height: 67pt;
+  text-align: center;
+  font-family: var(--primary-font);
+  color: var(--calendar-primary-color);
+  border-radius: 10pt;
+  width: 44pt;
+}
+
+.dayCard:hover {
+  background-color: var(--secondary-color);
+  color: black;
+}
+
+.cardActive {
+  background-color: var(--secondary-color);
+  color: black;
+}
+
+.dayCard p:first-child {
+  font-size: 16pt;
+  margin-top: 12pt;
+}
