@@ -1,0 +1,28 @@
+.logo-box {
+  background-color: var(--bg-color);
+  width: 100%;
+  display: grid;
+  grid-template-columns: auto 1fr 1fr;
+  place-items: center;
+}
+
+.logo-img {
+  height: 40px;
+  padding-right: 10px;
+}
+
+.logo-first {
+  color: var(--logo-primary-color);
+  font-size: 20pt;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding-top: 3px;
+}
+
+.logo-second {
+  color: var(--logo-secondary-color);
+  font-size: 20pt;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding-top: 3px;
+}

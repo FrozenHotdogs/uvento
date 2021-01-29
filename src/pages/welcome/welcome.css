@@ -1,15 +1,23 @@
 .welcome {
+  background-color: var(--bg-color);
+  background-image: url("../../assets/pattern.svg");
+  background-position: 10% 20%;
+  background-size: 145%;
+  background-repeat: no-repeat;
   height: 100vh;
   width: 100vw;
-  background-color: #1fc8db;
-  background-image: linear-gradient(
-    141deg,
-    #9fb8ad 0%,
-    #1fc8db 51%,
-    #2cb5e8 75%
-  );
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
+}
+
+.splash-content {
+  margin: 0 40px 0 45px;
+  font-family: var(--secondary-font);
+  font-weight: 200;
+  color: white;
+}
+
+.splash-logo-img {
+  width: 32px;
 }
