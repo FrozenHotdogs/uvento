@@ -1,9 +1,23 @@
-.logo-box {
+.header {
   background-color: var(--bg-color);
-  width: 100%;
   display: grid;
-  grid-template-columns: auto 1fr 1fr;
-  place-items: center;
+  grid-template-columns: 50% 50%;
+}
+
+.logo-box {
+  width: 50vw;
+  display: grid;
+  justify-content: start;
+  grid-auto-flow: column;
+  align-items: center;
+}
+
+.head-icons {
+  display: grid;
+  grid-auto-flow: column;
+  grid-template-columns: 40px 30px;
+  justify-content: end;
+  align-items: center;
 }
 
 .logo-img {
@@ -16,7 +30,6 @@
   font-size: 20pt;
   text-transform: uppercase;
   font-weight: bold;
-  padding-top: 3px;
 }
 
 .logo-second {
@@ -24,5 +37,4 @@
   font-size: 20pt;
   text-transform: uppercase;
   font-weight: bold;
-  padding-top: 3px;
 }
