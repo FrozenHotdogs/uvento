@@ -1,0 +1,28 @@
+.profileBox {
+  background-color: var(--bg-color);
+  display: grid;
+  grid-template-columns: auto auto;
+  align-items: center;
+}
+
+.profileArea {
+  font-family: var(--primary-font);
+}
+
+.profileHello {
+  color: var(--text-color);
+  font-size: 16pt;
+  font-weight: 600;
+}
+
+.profileMessage {
+  color: var(--primary-color);
+}
+
+.profileImg {
+  height: 70px;
+  width: 70px;
+  border-radius: 50px;
+  border: 4px solid #fae072;
+  justify-self: end;
+}

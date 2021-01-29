@@ -1,0 +1,40 @@
+.categoryBox {
+  background-color: var(--bg-color);
+  overflow-x: scroll;
+}
+
+.cardGrid {
+  display: grid;
+  grid-auto-flow: column;
+  column-gap: 25pt;
+  grid-template-columns: repeat(3, 129pt);
+}
+
+.categoryCard {
+  display: grid;
+  background-color: var(--item-bg-color);
+  width: 129pt;
+  height: 102pt;
+  border-radius: 10pt;
+  place-items: center;
+  grid-template-rows: 1fr 1fr;
+  row-gap: 15pt;
+}
+
+.categoryImg {
+  width: 22pt;
+  align-self: flex-end;
+  transition: transform 0.5s;
+}
+.categoryImg:hover {
+  transform: scale(1.3);
+}
+
+.categoryCard h4 {
+  margin: 0 auto;
+  align-self: flex-start;
+}
+
+.categoryBox::-webkit-scrollbar {
+  display: none;
+}
