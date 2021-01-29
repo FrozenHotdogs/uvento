@@ -1,20 +1,27 @@
-@import url("https://fonts.googleapis.com/css2?family=Muli&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Muli:wght@300;400;500;600;&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap");
 
 *,
 *::after,
 *::before {
   box-sizing: border-box;
 }
-/*Splash Color*/
+
 :root {
+  /* Splash Color */
+
   --bg-color: #102733;
-  --text-color: #ffffff;
+  --text-color: #fff;
   --primary-color: #f5f5f5;
   --secondary-color: #fccd00;
-  /*Logo Color*/
+
+  /* Logo Color */
+
   --logo-primary-color: #f5f5f5;
   --logo-secondary-color: #fccd00;
-  /*Splash Font*/
+
+  /* Splash Font */
+
   --primary-font: "Muli", sans-serif;
   --secondary-font: "Open Sans", sans-serif;
 }
