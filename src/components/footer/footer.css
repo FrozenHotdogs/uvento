@@ -1,0 +1,15 @@
+.footer-grid {
+  display: grid;
+  grid-auto-flow: column;
+  justify-content: center;
+  align-content: center;
+  column-gap: 69px;
+  background-color: var(--footer-color);
+  height: 98px;
+  width: 100vw;
+}
+
+.footer-img {
+  height: 20px;
+  align-self: center;
+}

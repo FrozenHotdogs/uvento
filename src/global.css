@@ -11,6 +11,7 @@
   /* Splash Color */
 
   --bg-color: #102733;
+  --footer-color: #152f3e;
   --text-color: #fff;
   --primary-color: #f5f5f5;
   --secondary-color: #fccd00;
@@ -23,6 +24,9 @@
   /* Calendar Color */
   --calendar-primary-color: #ccc;
   --calendar-secondary-color: #d8d9db;
+
+  /* Events Color */
+  --events-bg-color: #283f4d;
 
   /* Item Backgrounds */
 
