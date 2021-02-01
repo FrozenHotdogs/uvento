@@ -2,7 +2,7 @@
   display: grid;
   grid-auto-flow: column;
   background-color: var(--bg-color);
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
 }
 
@@ -12,7 +12,7 @@
   font-family: var(--primary-font);
   color: var(--calendar-primary-color);
   border-radius: 10pt;
-  width: 44pt;
+  width: 35pt;
 }
 
 .dayCard:hover {

@@ -6,15 +6,15 @@
 .cardGrid {
   display: grid;
   grid-auto-flow: column;
-  column-gap: 25pt;
+  column-gap: 10pt;
   grid-template-columns: repeat(3, 129pt);
 }
 
 .categoryCard {
   display: grid;
   background-color: var(--item-bg-color);
-  width: 129pt;
-  height: 102pt;
+  width: 100pt;
+  height: 80pt;
   border-radius: 10pt;
   place-items: center;
   grid-template-rows: 1fr 1fr;
@@ -22,7 +22,7 @@
 }
 
 .categoryImg {
-  width: 22pt;
+  width: 18pt;
   align-self: flex-end;
   transition: transform 0.5s;
 }
