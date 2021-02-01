@@ -1,0 +1,45 @@
+.eventcard-grid {
+  display: grid;
+  grid-auto-flow: column;
+  border-radius: 10pt;
+  background-color: var(--events-bg-color);
+}
+
+.eventcard-left {
+  display: grid;
+  grid-auto-flow: row;
+  align-content: center;
+  padding-left: 20px;
+}
+
+.eventcard-left p {
+  color: var(--text-color);
+  font-family: var(--primary-font);
+  font-weight: 300;
+  font-size: 11px;
+  margin: 0;
+}
+
+.eventcard-left p:first-of-type {
+  padding-bottom: 8px;
+}
+
+.eventcard-left h4 {
+  font-weight: 600;
+  margin: 0;
+  letter-spacing: 0.5pt;
+  font-size: 16px;
+  padding-bottom: 10px;
+}
+
+.eventcard-right-img {
+  width: 107px;
+  height: 98px;
+  object-fit: cover;
+  justify-self: end;
+  border-radius: 0 10pt 10pt 0;
+}
+
+.fas {
+  padding-right: 5px;
+}

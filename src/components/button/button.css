@@ -1,8 +1,23 @@
-.btn {
-  border-radius: 20px;
-  font-size: 1.2rem;
-  color: white;
-  background: #016b6b;
-  border: none;
-  padding: 10px 20px;
+.btn-home-grid {
+  display: grid;
+  grid-auto-flow: column;
+  justify-content: center;
+  align-content: center;
+  width: 138px;
+  height: 55px;
+  border-radius: 27pt;
+  background-color: var(--bg-color);
+}
+
+.btn-home-img {
+  color: var(--secondary-color);
+  padding-right: 15px;
+  height: 20px;
+}
+
+.btn-home-text {
+  color: var(--secondary-color);
+  font-family: var(--primary-font);
+  font-weight: 600;
+  padding-top: 2px;
 }
