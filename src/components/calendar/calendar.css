@@ -4,6 +4,7 @@
   background-color: var(--bg-color);
   justify-content: space-between;
   align-items: center;
+  overflow-x: scroll;
 }
 
 .dayCard {
@@ -28,4 +29,8 @@
 .dayCard p:first-child {
   font-size: 16pt;
   margin-top: 12pt;
+}
+
+.calendarBox::-webkit-scrollbar {
+  display: none;
 }
