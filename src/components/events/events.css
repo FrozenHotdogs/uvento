@@ -3,14 +3,11 @@
   grid-auto-flow: column;
   border-radius: 10pt;
   background-color: var(--events-bg-color);
-  width: 364px;
-  height: 98px;
 }
 
 .eventcard-left {
   display: grid;
   grid-auto-flow: row;
-  justify-content: start;
   align-content: center;
   padding-left: 20px;
 }

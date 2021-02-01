@@ -19,6 +19,5 @@
   color: var(--secondary-color);
   font-family: var(--primary-font);
   font-weight: 600;
-  align-self: center;
   padding-top: 2px;
 }
