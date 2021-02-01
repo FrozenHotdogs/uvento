@@ -6,8 +6,8 @@
 .cardGrid {
   display: grid;
   grid-auto-flow: column;
-  column-gap: 10pt;
-  grid-template-columns: repeat(3, 129pt);
+  column-gap: 0pt;
+  grid-template-columns: repeat(3, 120pt);
 }
 
 .categoryCard {

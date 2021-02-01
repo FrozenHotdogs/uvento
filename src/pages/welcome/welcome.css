@@ -38,3 +38,16 @@
 .splash-content h1 {
   margin: 0;
 }
+
+/* 
+Wingardium Leviosa */
+
+.start {
+  animation: blinker 3s linear infinite;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
